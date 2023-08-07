@@ -3,13 +3,9 @@
   src: url(../Assets/Fonts/CaviarDreams.ttf);
 }
 
-html{
-  height: 100%;
-}
 
 body {
     background-color: #f8fbf1;
-    height: 100%;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -19,8 +15,14 @@ body {
   }
   
 #root{
-  height: 100%;
-  padding: 0.5em;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr;
+  height: 100vh;
+  
 }
 
 code {
@@ -28,15 +30,6 @@ code {
     monospace;
 }
 
-.corps{
-  margin-top: 0.5em;
-  border-radius: 10px;
-  background-color: #5B696B;
-  padding: 0.5em;
-  display: flex;
-  font-family: CaviarDreamsBold;
-  height: 85%;
-}
 
 
 .test{

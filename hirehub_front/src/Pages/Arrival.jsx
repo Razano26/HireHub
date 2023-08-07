@@ -1,4 +1,4 @@
-import '../Styles/Arrival.css'
+//import '../Styles/Arrival.css'
 
 function Arrival(){
     return(

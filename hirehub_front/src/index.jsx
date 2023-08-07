@@ -12,16 +12,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Header/>
-      {/* <div className='corps'> */}
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/Arrival" element={<Arrival />} />
-          <Route path="/Deppart" element={<Deppart />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      {/* </div> */}
-
+      <div className='grid'>
+          <Header/>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/Arrival" element={<Arrival />} />
+            <Route path="/Deppart" element={<Deppart />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+      </div>
     </Router>
   </React.StrictMode>
 );

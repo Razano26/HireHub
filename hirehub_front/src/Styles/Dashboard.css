@@ -1,0 +1,22 @@
+.Dashboard{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-row-gap: 10px;
+}
+
+.Calendrier{
+    grid-area: 3 / 2 / 9 / 5;
+    background-color: brown;
+}
+
+.Arrival{
+    grid-area: 2 / 6 / 6 / 10;
+    background-color: beige;
+}
+
+.Departure{
+    grid-area: 6 / 6 / 10 / 10;
+    background-color: grey;
+}
