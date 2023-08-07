@@ -12,5 +12,14 @@
 }
 
 .logo{
-    height: 100px;
+    display: contents;
+}
+
+.logo-img {
+    max-width: 100%;
+}
+
+.nav_btn{
+    justify-self: end;
+    padding-right: 2em;
 }
