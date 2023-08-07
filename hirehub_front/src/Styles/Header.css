@@ -1,0 +1,48 @@
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url(../Assets/Fonts/CaviarDreams_Bold.ttf);
+  }
+
+.Header{
+    margin: 0.5em;
+    border-radius: 10px;
+    background-color: #5B696B;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    font-family: CaviarDreamsBold;
+    height: 7%;
+}
+
+.Header .Logo{
+    max-width: 92%;
+    max-height: 92%;
+    margin: .2em;
+    border-radius:10px 10px;
+    filter: drop-shadow(0 0 0.25rem #535953);
+}
+
+.Header .Btn{
+    color: black;
+    text-decoration: none;
+    margin: .2em;
+    border-radius:10px 10px;
+    border: 0.1em;
+    box-shadow: 0.15rem 0.15rem 0.25rem #535953;
+    padding: 10px 15px;
+    background-color: #C5C5A9;
+    transition: 0.5s;
+}
+
+.Header .Btn:hover{
+    min-width: 80px;
+    background-color: #F8FBF1;
+    transition: 0.5s;
+}
+
+.nav_btn{
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
