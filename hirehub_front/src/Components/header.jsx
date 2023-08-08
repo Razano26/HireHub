@@ -17,7 +17,7 @@ function Header(){
                 <Link className='Btn' to="/">Dashboard</Link>
                 <Link className='Btn' to="/Arrival">Arrivé</Link>
                 <Link className='Btn' to="/Deppart">Départ</Link>
-                <Link className='Btn' to='/'>Archive ▼</Link>
+                <Link className='Btn' to='/Archive'>Archive</Link>
                 <Link className='Btn' to='/'> Account ▼</Link>
             </nav>
         </div>
