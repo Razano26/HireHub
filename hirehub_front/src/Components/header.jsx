@@ -7,13 +7,14 @@ function Header(){
     return(
         <div className='Header'>
             
+            <div></div>
+
             <Link to='/' className='logo'>
                 <img src={Logo} alt="Logo avec nom" className="logo-img"/>
             </Link>
 
-            <div></div>
-
             <nav className='nav_btn'>
+                <Link className='Btn' to="/">Dashboard</Link>
                 <Link className='Btn' to="/Arrival">Arrivé</Link>
                 <Link className='Btn' to="/Deppart">Départ</Link>
                 <Link className='Btn' to='/'>Archive ▼</Link>
