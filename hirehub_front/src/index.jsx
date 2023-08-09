@@ -15,13 +15,15 @@ root.render(
     <Router>
       <div className='grid'>
           <Header/>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/Arrival" element={<Arrival />} />
-            <Route path="/Deppart" element={<Deppart />} />
-            <Route path="/Archive" element={<Archive />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
+          <div className='Page'>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/Arrival" element={<Arrival />} />
+              <Route path="/Deppart" element={<Deppart />} />
+              <Route path="/Archive" element={<Archive />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
+          </div>
       </div>
     </Router>
   </React.StrictMode>

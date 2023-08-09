@@ -13,15 +13,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-#root{
-}
 
 .grid{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 8fr;
-  height: 100vh;
+  row-gap: 1.5vh;
+  padding: 1.5vh;
+  height: 97vh;
   
 }
 
