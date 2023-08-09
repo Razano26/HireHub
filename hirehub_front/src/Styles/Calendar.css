@@ -1,0 +1,19 @@
+.highlighted-date {
+    background-color: #FFD700; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+.highlighted2 {
+    background-color: #0059ff; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+

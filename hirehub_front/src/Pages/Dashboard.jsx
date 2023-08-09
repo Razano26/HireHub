@@ -1,4 +1,6 @@
 import '../Styles/Dashboard.css'
+import Calendrier from '../Components/Calendar';
+
 
 function Dashboard(){
     return(
@@ -7,7 +9,7 @@ function Dashboard(){
                 Dashboard
             </div>
             <div className='Calendrier'>
-                Calendrier
+                <Calendrier />
             </div>
             <div className='Arrival'>
                 Arrivé
