@@ -7,17 +7,18 @@ function Header(){
     return(
         <div className='Header'>
             
-            <Link to='/' className='logo'>
-                {/* <img src={Logo} className='Logo' alt="Logo avec nom"/> */}
-            </Link>
-
             <div></div>
 
+            <Link to='/' className='logo'>
+                <img src={Logo} alt="Logo avec nom" className="logo-img"/>
+            </Link>
+
             <nav className='nav_btn'>
+                <Link className='Btn' to="/">Dashboard</Link>
                 <Link className='Btn' to="/Arrival">Arrivé</Link>
                 <Link className='Btn' to="/Deppart">Départ</Link>
-                <Link className='Btn' to='/'>Archive ▼</Link>
-                <Link className='Btn' to='/'> Account ▼</Link>
+                <Link className='Btn' to='/Archive'>Archive</Link>
+                <Link className='Btn' to='/Test'> Account ▼</Link>
             </nav>
         </div>
     )

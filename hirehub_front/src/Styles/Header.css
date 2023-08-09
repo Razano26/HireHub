@@ -4,13 +4,53 @@
 }
 
 .Header{
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 3px 0px #000000;
+
     display: grid;
-    grid-template-columns: 1fr 7fr 2fr;
+    grid-template-columns: 20px 300px 1fr;
     grid-template-rows: 1fr;
     align-items: center;
 }
 
 .logo{
-    height: 100px;
+    display: contents;
+    margin-left: 1em;
+}
+
+.logo-img {
+    max-width: 40%;
+    border-radius: 10px 10PX;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+
+.nav_btn{
+    justify-self: end;
+    padding-right: 2em;
+}
+
+.Btn{
+    margin-left: 10px;
+    padding: 9px;
+    background: #535953;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 4px 0px #000000;
+
+    text-decoration: none;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #E66265 0%, #F39E54 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: .25s;
+}
+
+.Btn:hover{
+    padding: 11px;
+
+    transition: .25s;
+
 }
