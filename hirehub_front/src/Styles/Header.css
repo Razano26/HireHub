@@ -6,7 +6,6 @@
 .Header{
     /* background-color: aqua; */
     background-color: rgb(255, 255, 255);
-    margin: .5em;
     border-radius: 10px 10px;
     box-shadow: 0px 0px 3px 0px #000000;
 
@@ -35,7 +34,7 @@
 .Btn{
     margin-left: 10px;
     padding: 9px;
-    background-color: #535953;
+    background: #535953;
     border-radius: 10px 10px;
     box-shadow: 0px 0px 4px 0px #000000;
 
@@ -43,6 +42,15 @@
     font-weight: bold;
     background: -webkit-linear-gradient(left, #E66265 0%, #F39E54 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    transition: .25s;
+}
+
+.Btn:hover{
+    padding: 11px;
+
+    transition: .25s;
 
 }

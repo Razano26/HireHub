@@ -5,14 +5,11 @@
 
 
 .Page{
-    font-family: CaviarDreamsBold;
-    background-color: #5B696B;
-    border-radius: 10px;
-    margin: 0.5em;
-    padding: 0.5em;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0em;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    padding: 1em;
 }
 
 .Title{
