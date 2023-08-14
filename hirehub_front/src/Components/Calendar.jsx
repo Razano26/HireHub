@@ -13,20 +13,26 @@ function Calendrier() {
     new Date(2023, 7, 22),
     // ... Ajoutez d'autres dates ici  
   ];
+  const both = [
+    new Date(2023, 7, 5), // Les mois commencent à partir de 0, donc 7 représente août    new Date(2023, 7, 25),
+    new Date(2023, 7, 29),
+    // ... Ajoutez d'autres dates ici  
+  ];
   const tileClassName = ({ date }) => {
     if (highlightedDates.some(d => d.toDateString() === date.toDateString())) {
       return 'highlighted-date';
     } 
     if (depart.some(d => d.toDateString() === date.toDateString())) {
       return 'highlighted2';
+    } 
+    if (both.some(d => d.toDateString() === date.toDateString())) {
+      return 'highlighted3';
     } };
 
   return (
-    <div className="Calendrier">
-      <Calendar
-        tileClassName={tileClassName}
-      />
-    </div>
+        <Calendar
+          tileClassName={tileClassName}
+        />  
   );
 }
 

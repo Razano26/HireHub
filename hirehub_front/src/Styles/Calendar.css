@@ -1,5 +1,5 @@
 .highlighted-date {
-    background-color: #FFD700; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
+    background-color: #e66465; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
     color: white;
     border-radius: 3px;
     display: flex;
@@ -8,7 +8,16 @@
     font-weight: bold;
   }
 .highlighted2 {
-    background-color: #0059ff; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
+    background-color: #9198e5; /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .highlighted3 {
+    background: linear-gradient(#e66465, #9198e5); /* Utilisez la couleur que vous souhaitez pour mettre en évidence */
     color: white;
     border-radius: 3px;
     display: flex;
@@ -17,3 +26,28 @@
     font-weight: bold;
   }
 
+.react-calendar {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px;
+  box-shadow: 0px 0px 3px 0px #000000;
+}
+
+button:hover{
+  border-radius: 3px;
+}
+
+.react-calendar__tile--now {
+  background-color: blanchedalmond;
+  border-radius: 3px 3px;
+}
+
+
+abbr[title] {
+  text-decoration: none;
+}

@@ -1,6 +1,5 @@
 .Dashboard{
     height: 100%;
-    background-color: blueviolet;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -9,7 +8,7 @@
 
 .Calendrier{
     grid-area: 4 / 2 / 8 / 5;
-    background-color: brown;
+    display: flex;
 }
 
 .Arrival{
